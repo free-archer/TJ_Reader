@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7031120e-6012-445c-b5f3-7980728f71a6">
+  <name>TJ_Reader</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение ТЖ</value>
+  </synonym>
+  <comment>Конфигурация для быстрого чтения технологического журнала</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="22fc6722-1906-4776-b6e3-25ba9bd77522"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="72a6a563-edc6-43eb-94d8-8acd3cf07c1c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2827fac8-a798-4dc8-acc5-13ccf990e22d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3b1a48b3-dee0-4251-a4c3-60fe73d975e8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5e0b57e8-031d-48fc-8ae9-ee8b17d9e958"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="76c99476-eddb-4587-9004-d9cb64b65a87"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d1a1c5d6-069d-4e7b-93ea-04a0afd57945"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>bespalov.alexey@yandex.ru</vendor>
+  <version>0.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="2c85d6c8-609c-4913-8547-03ddccb5c72a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
