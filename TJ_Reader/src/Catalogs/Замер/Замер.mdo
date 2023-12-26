@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a95a40c-4dbf-4daf-a33c-19d8c762edf0">
+  <producedTypes>
+    <objectType typeId="9f5e92da-9a01-4674-a196-450798ff7ca1" valueTypeId="50ae5d73-4d95-42c1-a960-8a24143bb435"/>
+    <refType typeId="69c15e68-4598-4a8e-9027-a9383d020147" valueTypeId="2c596e08-7741-4296-a6da-b2fbaa2976ce"/>
+    <selectionType typeId="751386a4-7c84-4070-963a-b20f6c7776c9" valueTypeId="ed5da4ba-a7aa-4650-a102-36e401be3701"/>
+    <listType typeId="24496cf6-250c-4a66-aac2-ce00a307abb4" valueTypeId="b0962879-3b26-4aa2-8d96-a52e0650a070"/>
+    <managerType typeId="faa03417-cb46-45be-9e3b-394e22dfd3da" valueTypeId="2c08a8d8-b90b-44ae-9897-25f09240b0cb"/>
+  </producedTypes>
+  <name>Замер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Замер.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Замер.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b4438d39-50ba-471f-ace2-604fad4b35d4">
+    <name>ПутьКЛогам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к логам</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a72c6b79-fe3b-450d-96f7-f2fd917e570e">
+    <name>КлючПоследнегоСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ последнего события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

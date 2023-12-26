@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa845b3b-52a5-448d-896f-bd5c81ebcf06">
+  <name>ТЖ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технологический журнал</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Замер</content>
+  <content>DataProcessor.ЧтениеЖурнала</content>
+  <content>InformationRegister.Журнал</content>
+</mdclass:Subsystem>

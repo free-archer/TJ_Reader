@@ -41,4 +41,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ТЖ</subsystems>
+  <commonModules>CommonModule.ТЖСервер</commonModules>
+  <catalogs>Catalog.Замер</catalogs>
+  <dataProcessors>DataProcessor.ЧтениеЖурнала</dataProcessors>
+  <informationRegisters>InformationRegister.Журнал</informationRegisters>
 </mdclass:Configuration>

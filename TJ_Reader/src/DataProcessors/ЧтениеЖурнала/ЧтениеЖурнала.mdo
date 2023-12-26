@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd3a960c-a4fc-4d89-be9e-7919c555ddd3">
+  <producedTypes>
+    <objectType typeId="fc2259f4-83b5-4cfe-9ccc-460d94656184" valueTypeId="3a74bffa-89b3-4e3f-824b-3d1721fddb49"/>
+    <managerType typeId="0fc9f758-5ecd-425a-9793-39d5831e4dad" valueTypeId="389bbf44-2445-4617-9f8e-d7c0bd6db026"/>
+  </producedTypes>
+  <name>ЧтениеЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение журнала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="679bf261-3c9b-4b48-bb74-d6be773c0d92">
+    <name>ЧтениеЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение журнала</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="10750876-1e87-4ff3-94e4-638b869d4f49">
+    <name>ЧтениеЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение журнала</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
