@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Замер</content>
+  <content>Catalog.Замеры</content>
   <content>DataProcessor.ЧтениеЖурнала</content>
   <content>InformationRegister.Журнал</content>
 </mdclass:Subsystem>

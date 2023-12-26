@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.Журнал.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Журнал.Form.ФормаСписка</defaultListForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <attributes uuid="ecbafbba-9fec-4010-9f7c-ca45a3442cc5">
     <name>Длительность</name>
@@ -163,6 +164,22 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <dimensions uuid="217e040c-ec23-41ea-afac-538a5297aa90">
+    <name>Замер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Замеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="e58295b9-e2b2-484d-862b-f11a6245be2e">
     <name>КлючЗаписи</name>
     <synonym>
@@ -204,6 +221,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="75d5c9c1-0f16-47d7-b0df-f304d3c6355f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

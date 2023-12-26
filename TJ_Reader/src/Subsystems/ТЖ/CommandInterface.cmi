@@ -3,13 +3,13 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
-      <commands>Catalog.Замер.StandardCommand.OpenList</commands>
+      <commands>Catalog.Замеры.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
-      <commands>Catalog.Замер.StandardCommand.OpenList</commands>
+      <commands>Catalog.Замеры.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

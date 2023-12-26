@@ -43,7 +43,7 @@
   </languages>
   <subsystems>Subsystem.ТЖ</subsystems>
   <commonModules>CommonModule.ТЖСервер</commonModules>
-  <catalogs>Catalog.Замер</catalogs>
+  <catalogs>Catalog.Замеры</catalogs>
   <dataProcessors>DataProcessor.ЧтениеЖурнала</dataProcessors>
   <informationRegisters>InformationRegister.Журнал</informationRegisters>
 </mdclass:Configuration>

@@ -7,14 +7,14 @@
     <listType typeId="24496cf6-250c-4a66-aac2-ce00a307abb4" valueTypeId="b0962879-3b26-4aa2-8d96-a52e0650a070"/>
     <managerType typeId="faa03417-cb46-45be-9e3b-394e22dfd3da" valueTypeId="2c08a8d8-b90b-44ae-9897-25f09240b0cb"/>
   </producedTypes>
-  <name>Замер</name>
+  <name>Замеры</name>
   <synonym>
     <key>ru</key>
-    <value>Замер</value>
+    <value>Замеры</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Замер.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Замер.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Замеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Замеры.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -31,10 +31,10 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="b4438d39-50ba-471f-ace2-604fad4b35d4">
-    <name>ПутьКЛогам</name>
+    <name>ПутьКЖурналу</name>
     <synonym>
       <key>ru</key>
-      <value>Путь к логам</value>
+      <value>Путь к журналу</value>
     </synonym>
     <type>
       <types>String</types>
@@ -49,16 +49,14 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a72c6b79-fe3b-450d-96f7-f2fd917e570e">
-    <name>КлючПоследнегоСобытия</name>
+    <name>ДатаПоследнейЗаписи</name>
     <synonym>
       <key>ru</key>
-      <value>Ключ последнего события</value>
+      <value>Дата последней записи</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
+      <types>Date</types>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
