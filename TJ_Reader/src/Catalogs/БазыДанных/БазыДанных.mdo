@@ -107,26 +107,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.БазыДанных.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="1c1026d9-fc9e-449f-9880-488d28ff62c5">
-    <name>ИмяSQL</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя SQL</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="d78a1d15-e8d7-40c1-82f1-c60095996724">
     <name>ФормаЭлемента</name>
     <synonym>

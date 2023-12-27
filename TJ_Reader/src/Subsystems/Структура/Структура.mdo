@@ -7,13 +7,13 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ПоляИндексов</content>
-  <content>Catalog.Индексы</content>
-  <content>Catalog.Поля</content>
-  <content>Catalog.Методанные1С</content>
-  <content>Catalog.БазыДанных</content>
-  <content>CommonModule.СтруктураДанныхСервер</content>
   <content>CommonForm.Структура</content>
-  <content>CommonCommand.ОткрытьСтруктуру</content>
   <content>CommonTemplate.ОбработкаВыгрузкиСтруктуры</content>
+  <content>Catalog.БазыДанных</content>
+  <content>Catalog.Индексы</content>
+  <content>Catalog.Методанные1С</content>
+  <content>Catalog.Поля</content>
+  <content>Catalog.ПоляИндексов</content>
+  <content>CommonModule.СтруктураДанныхСервер</content>
+  <content>CommonCommand.ОткрытьСтруктуру</content>
 </mdclass:Subsystem>
