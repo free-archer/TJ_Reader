@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da66ba50-2ca2-47d6-935e-2ea1b911956d">
+  <name>ОбработкаВыгрузкиСтруктуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка выгрузки структуры</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

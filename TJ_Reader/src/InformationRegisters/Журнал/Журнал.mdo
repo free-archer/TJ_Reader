@@ -111,7 +111,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="595c42db-5f83-4b5a-988b-db46fc5251f6">
-    <name>Usr</name>
+    <name>usr</name>
     <synonym>
       <key>ru</key>
       <value>Usr</value>
@@ -189,7 +189,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>12</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

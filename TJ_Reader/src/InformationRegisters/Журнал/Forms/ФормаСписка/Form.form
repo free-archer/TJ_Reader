@@ -82,12 +82,12 @@
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
       <handlers>
-        <event>ChoiceProcessing</event>
-        <name>ПутьКЖурналуОбработкаВыбора</name>
-      </handlers>
-      <handlers>
         <event>StartChoice</event>
         <name>ПутьКЖурналуНачалоВыбора</name>
+      </handlers>
+      <handlers>
+        <event>ChoiceProcessing</event>
+        <name>ПутьКЖурналуОбработкаВыбора</name>
       </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1485,12 +1485,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
@@ -1515,13 +1515,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ДатаЗаписи</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Замер</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.КлючЗаписи</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ДатаЗаписи</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
