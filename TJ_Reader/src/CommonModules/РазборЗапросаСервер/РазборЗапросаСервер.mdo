@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc6b2e35-8a5a-4325-a432-d82da55489b9">
-  <name>ТранслироватьЗапрос</name>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9467f162-7e25-4737-bb31-59837ad1d88a">
+  <name>РазборЗапросаСервер</name>
   <synonym>
     <key>ru</key>
-    <value>Транслировать запрос</value>
+    <value>Разбор запроса сервер</value>
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
