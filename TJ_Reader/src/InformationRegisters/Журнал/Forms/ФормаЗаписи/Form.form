@@ -201,7 +201,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Запись.usr</segments>
+        <segments>Запись.Usr</segments>
       </dataPath>
       <extendedTooltip>
         <name>usrРасширеннаяПодсказка</name>
