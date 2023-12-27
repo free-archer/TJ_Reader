@@ -4,10 +4,14 @@
     <placementFragments>
       <group>NavigationPanelImportant</group>
       <commands>CommonCommand.ОткрытьСтруктуру</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>NavigationPanelOrdinary</group>
       <commands>InformationRegister.Журнал.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>InformationRegister.Журнал.StandardCommand.OpenList</commands>
+      <commands>CommonCommand.ОткрытьСтруктуру</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>

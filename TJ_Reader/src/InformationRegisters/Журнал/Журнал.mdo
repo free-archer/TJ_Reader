@@ -164,6 +164,22 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="00d610d6-58f1-49e6-a1bd-9faff90138e9">
+    <name>Запрос1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="217e040c-ec23-41ea-afac-538a5297aa90">
     <name>Замер</name>
     <synonym>

@@ -46,6 +46,7 @@
   <commonTemplates>CommonTemplate.ОбработкаВыгрузкиСтруктуры</commonTemplates>
   <commonModules>CommonModule.СтруктураДанныхСервер</commonModules>
   <commonModules>CommonModule.ТЖСервер</commonModules>
+  <commonModules>CommonModule.ТранслироватьЗапрос</commonModules>
   <commonCommands>CommonCommand.ОткрытьСтруктуру</commonCommands>
   <commonForms>CommonForm.Структура</commonForms>
   <catalogs>Catalog.БазыДанных</catalogs>
