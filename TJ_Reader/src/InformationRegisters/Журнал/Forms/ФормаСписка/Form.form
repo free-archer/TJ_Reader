@@ -598,6 +598,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ДатаНачала</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДатаНачалаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДатаНачалаРасширеннаяПодсказка</name>
         <id>72</id>
@@ -648,6 +652,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ДатаОкончания</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДатаОкончанияПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДатаОкончанияРасширеннаяПодсказка</name>
         <id>75</id>
@@ -698,6 +706,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>СТекстомЗапроса</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СТекстомЗапросаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СТекстомЗапросаРасширеннаяПодсказка</name>
         <id>91</id>
