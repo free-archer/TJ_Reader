@@ -59,16 +59,16 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="46824ffe-da65-4a16-9136-40e9e8c8b419">
-    <name>ДлительностьМилиСек</name>
+    <name>ДлительностьМиллиСек</name>
     <synonym>
       <key>ru</key>
-      <value>Длительность мили сек</value>
+      <value>Длительность милли сек</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>20</precision>
-        <scale>6</scale>
+        <scale>3</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
