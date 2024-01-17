@@ -10,4 +10,5 @@
   <content>Catalog.Замеры</content>
   <content>DataProcessor.ЧтениеЖурнала</content>
   <content>InformationRegister.Журнал</content>
+  <content>CommonCommand.ПоказатьМакетLogcfgSQL</content>
 </mdclass:Subsystem>

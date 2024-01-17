@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://v8.1c.ru/v8/tech-log">
+<dump create="false"/>
+ <log location="W:\LOGS" history="8">
+
+	<event>
+		<eq property="name" value="DBPOSTGRS"/>
+		<ge property="Durationus" value="1000"/>
+	</event>
+		
+	<property name="Sdbl"/>
+	<property name="sql"/>
+	<property name="usr"/>
+	<property name="DataBase"/>
+	<property name="context"/>
+	<property name="Rows"/>
+	<property name="RowsAffected"/>	
+
+ </log>
+</config>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a55ed5-e05b-41b4-afca-95aab37b43c4">
+  <name>Структура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.Структура</content>
+  <content>CommonTemplate.ОбработкаВыгрузкиСтруктуры</content>
+  <content>Catalog.БазыДанных</content>
+  <content>Catalog.Индексы</content>
+  <content>Catalog.Методанные1С</content>
+  <content>Catalog.Поля</content>
+  <content>Catalog.ПоляИндексов</content>
+  <content>CommonModule.СтруктураДанныхСервер</content>
+  <content>CommonCommand.ОткрытьСтруктуру</content>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1d8166e-5aba-4e5f-8669-02fd34bbee81">
+  <name>ОткрытьСтруктуру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

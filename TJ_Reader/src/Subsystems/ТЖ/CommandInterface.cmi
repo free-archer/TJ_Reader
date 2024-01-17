@@ -3,13 +3,21 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
-      <commands>Catalog.Замеры.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Журнал.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ЧтениеЖурнала.Command.ЧтениеЖурнала</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
-      <commands>Catalog.Замеры.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.Журнал.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ЧтениеЖурнала.Command.ЧтениеЖурнала</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

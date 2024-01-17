@@ -59,16 +59,16 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="46824ffe-da65-4a16-9136-40e9e8c8b419">
-    <name>ДлительностьМилиСек</name>
+    <name>ДлительностьМиллиСек</name>
     <synonym>
       <key>ru</key>
-      <value>Длительность мили сек</value>
+      <value>Длительность милли сек</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
         <precision>20</precision>
-        <scale>6</scale>
+        <scale>3</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -111,7 +111,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="595c42db-5f83-4b5a-988b-db46fc5251f6">
-    <name>Usr</name>
+    <name>usr</name>
     <synonym>
       <key>ru</key>
       <value>Usr</value>
@@ -164,6 +164,22 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="00d610d6-58f1-49e6-a1bd-9faff90138e9">
+    <name>Запрос1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="217e040c-ec23-41ea-afac-538a5297aa90">
     <name>Замер</name>
     <synonym>
@@ -189,7 +205,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>12</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
