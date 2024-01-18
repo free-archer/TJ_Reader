@@ -198,6 +198,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="9b6fc82b-b480-44ca-b266-cce885bd5f5e">
+    <name>RowsAffected</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rows affected</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="217e040c-ec23-41ea-afac-538a5297aa90">
     <name>Замер</name>
     <synonym>
