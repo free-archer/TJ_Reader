@@ -292,6 +292,11 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorDef">
+        <red>51</red>
+        <green>153</green>
+        <blue>102</blue>
+      </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -323,6 +328,11 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>175</green>
+        <blue>181</blue>
+      </backColor>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -2006,6 +2016,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Замер</segments>
     </settingsSavedData>
@@ -2047,6 +2058,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ПутьКЖурналу</segments>
     </settingsSavedData>
@@ -2273,11 +2285,15 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataCompositionNewGroup</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>НовыйЗамер</name>
       </handler>
     </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -2290,11 +2306,15 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПрочитатьТЖ</name>
       </handler>
     </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -2307,11 +2327,15 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DeleteDirectly</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Очистить</name>
       </handler>
     </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
@@ -2345,11 +2369,15 @@
     <use>
       <common>true</common>
     </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.DataProcessor</picture>
+    </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПолучитьЗапросы1С</name>
       </handler>
     </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
