@@ -54,19 +54,19 @@
     <name>ГруппаКлюч</name>
     <id>34</id>
     <items xsi:type="form:FormField">
-      <name>КлючЗаписи</name>
-      <id>1</id>
+      <name>ОтметкаВремени</name>
+      <id>58</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Запись.КлючЗаписи</segments>
+        <segments>Запись.ОтметкаВремени</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КлючЗаписиРасширеннаяПодсказка</name>
-        <id>3</id>
+        <name>ОтметкаВремениРасширеннаяПодсказка</name>
+        <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -80,8 +80,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КлючЗаписиКонтекстноеМеню</name>
-        <id>2</id>
+        <name>ОтметкаВремениКонтекстноеМеню</name>
+        <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
