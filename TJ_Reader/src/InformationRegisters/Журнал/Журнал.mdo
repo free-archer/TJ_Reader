@@ -234,6 +234,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="c5dc2892-75ff-4257-8d00-de162f5713e5">
+    <name>Отметка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="217e040c-ec23-41ea-afac-538a5297aa90">
     <name>Замер</name>
     <synonym>
